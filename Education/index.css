@@ -1,0 +1,172 @@
+*{
+	padding:0x;
+	margin:0px;
+}
+#wrapper{
+	width:100%;
+}
+	#header{
+	}
+		#menu{
+			height:130px;
+		}
+		#menu ul{
+			list-style-type:none;
+			padding-left:250px;
+		}
+		#menu ul li{
+			padding-top:0px;
+			float:left;
+			width: 130px;
+		}
+		#menu ul li a{
+			display:block;
+			text-decoration:none;
+		}
+		#menu ul li a img{
+			display:block;
+			margin:auto;
+		}
+		#menu ul li a p {
+			text-align: center;
+		}
+		#menu ul li a:hover{
+			background-color: #eab830;
+		}
+	
+		#banner{
+			height:600px;;
+			background-image:url("banner_02.png");
+			background-repeat:no-repeat;
+		}
+			#banner ul {
+				list-style-type:none;
+				padding-top:303px;
+			}
+			#banner ul li{
+				float:left;
+				background-image:url("banner-04_09.png");
+				width:270px;
+				height:240px;
+				position:relative;
+				margin-left:20px;
+			}
+			#banner ul li img{
+				position:absolute;
+				bottom:190px;
+				right:90px;
+			}
+			.sub-img{
+				padding:16px;
+			}
+		#intro{
+			height:470px;
+		}
+			#intro ul{
+				padding-left:60px;
+				list-style-type:none;
+			}
+			#intro ul li{
+				width:270px;
+				height:400px;
+				position:relative;
+				background:gray;
+				float:left;
+				margin-left:30px;
+			}
+			#intro ul li .sub-img-1{
+				position:absolute;	
+				top:149px;
+				right:85px;
+			}
+		
+#content{
+	
+}
+#content-top {
+	height:470px;
+	background-image:url("../Education/images/img-content.png");
+}
+	#content-top ul{
+		list-style-type:none;
+		padding-top:200px;
+		padding-left:60px;
+	}
+	#content-top ul li{
+		float:left;
+		width:270px;
+		height:175px;
+	}
+	#content-top ul li img{
+		margin:auto;
+		display:block;
+	}
+	#content-top ul li p{
+		padding-top:10px;
+	}
+	
+	#content-main{
+		margin-top:50px;
+	}
+	#content-main ul{
+		padding-top:50px;
+	}
+	#content ul li{
+		list-style-type:none;
+		float:left;
+		padding-left:20px;
+		width:270px;
+	}
+	.sub-content{
+		width:270px;
+		height:100px;
+		padding-left:10px;
+	}
+	#content-main ul li .sub-content-left{
+		float:left;
+	}
+	#content-main ul li .sub-content-right{
+		padding-top:20px;
+		float:left;
+	}
+	
+	#content-bot{
+		height:525px;
+		padding-top:25px;
+	}
+	#content-bot ul{
+		padding-top:15px;
+		margin-left:35px;
+		margin-bottom:20px;
+	}
+	#content-bot ul li{
+		width:370px;
+		float:left;
+	}
+	.sub-li-left{
+		float:left;
+		width:30px;
+	}
+	.sub-li-right{
+		float:left;
+		width:315px;
+		padding-left:25px;
+	}
+	#content-bot-sub{
+		margin-left:95px;
+	}
+	#footer-top{
+		background-image:url("../Education/images/background.png");
+		height:415px;
+	}
+	#footer-left{
+		width:500px;
+		float:left;
+	}
+	#footer-right{
+		width:400px;
+		float:left;
+	}
+	#footer-bot{
+		height:400px;
+	}
