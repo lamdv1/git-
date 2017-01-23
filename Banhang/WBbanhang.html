@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="contenttype" content="text/html;charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+	<script>
+		function cong(){
+			var t = document.getElementById("textBox").value;
+			document.getElementById("textBox").value = parseInt(t)+1;
+		}
+		function tru(){
+			var t = document.getElementById("textBox").value;
+			if(parseInt(t) > 1)
+			document.getElementById("textBox").value = parseInt(t)-1;
+		}
+	</script>
+</head>
+
+<body style="background-color:#55d4ff;">
+	<div id="wrapper"> 
+		<div id="banner">
+			
+			<div id="logo">
+				<div id="logo-left">
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\google.png" alt="Logo google"/>
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\facebook.png" alt="Logo google"/>
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\yahoo.png" alt="Logo google"/>
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\zing.png" alt="Logo google"/>
+				</div>
+				
+				<div id="logo-right">
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\login.png" alt="Logo google"/>
+					<a href="#" style="border-left:1px solid #000000; text-decoration:none;"> Đăng nhập </a>
+					<a href="#" style="border-left:1px solid #000000; text-decoration:none;"> Đăng Ký </a>
+				</div>
+			</div>
+			
+			<div id="shopcart">
+				<div id="shopcart-left">
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\nameShop.png" alt="shopcart-left"/>
+				</div>
+				
+				<div id="shopcart-right">
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\shopcart.png" style="position:relative;" alt="shopcart"/>
+					<div id="shop">
+						<input type="button" onclick="tru()" id="plus"/>
+						<input type="text" value="1" style="width:30px;" id="textBox"/>
+						<input type="button" onclick="cong()" id="pre"/>
+					</div>
+				</div>
+			</div>
+			<div id="contact">
+				<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\call2.png" alt="shopcart-left" /> 0982158742
+				<input type="text" placeholder="Search for music" style="padding-top:8px; " />
+				<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\button.png" alt="shopcart-left"/>
+			</div>
+		</div>
+		
+		<div id="menu-bar">
+			<div id="menu">
+				<ul>
+					<li><a href="#"> <img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\home.png" alt="trang chủ"/></a></li>
+					<li>
+						<a href="#"> Trang chủ </a>
+						<ul class="submenu">
+							<li><a href="#"> Giới thiệu </a></li>
+							<li><a href="#">Giới tính Nam </a></li>
+							<li><a href="#">Giới tính Nữ </a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#"> Giới thiệu </a>
+						<ul class="submenu">
+							<li><a href="#"> Giới thiệu </a></li>
+							<li><a href="#">Giới tính Nam </a></li>
+							<li><a href="#">Giới tính Nữ </a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#">Giới tính Nam </a>
+						<ul class="submenu">
+							<li><a href="#"> Giới thiệu </a></li>
+							<li><a href="#">Giới tính Nam </a></li>
+							<li><a href="#">Giới tính Nữ </a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#">Giới tính Nữ </a>
+						<ul class="submenu">
+							<li><a href="#"> Giới thiệu </a></li>
+							<li><a href="#">Giới tính Nam </a></li>
+							<li><a href="#">Giới tính Nữ </a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="img">
+				<div id="img-left">
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\B1CLT164_210.jpg" width="295" height="400" alt="anh đẹp" style="float:left;"/>
+					<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\K1CLT018-300.jpg" width="295" height="400" alt="anh đẹp" style="float:left;"/>
+				</div>
+				
+				<div id="img-right">
+					<div id="img-right-top">
+						<img src="" alt="quảng cáo"/>
+					</div>
+					
+					<div id="img-right-bot">
+						<img src="" alt="quảng cáo"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="wellcome">
+				<div> wellcome to our page!!</div>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div id="content-left">
+				<div id="menu-doc">
+					<ul>
+						<li><a href="#"> Quần áo nữ</a>
+							<ul class="submenu-1">
+								<li><a href="#"> Giày dép nữ</a></li>
+								<li><a href="#"> Trang sức nữ</a></li>
+								<li><a href="#"> Phụ kiện nữ</a></li>
+							</ul>
+						</li>
+						<li><a href="#"> Giày dép nữ</a>
+							<ul class="submenu-1">
+								<li><a href="#"> Giày dép nữ</a></li>
+								<li><a href="#"> Trang sức nữ</a></li>
+								<li><a href="#"> Phụ kiện nữ</a></li>
+							</ul>
+						</li>
+						<li><a href="#"> Trang sức nữ</a>
+							<ul class="submenu-1">
+								<li><a href="#"> Giày dép nữ</a></li>
+								<li><a href="#"> Trang sức nữ</a></li>
+								<li><a href="#"> Phụ kiện nữ</a></li>
+							</ul>
+						</li>
+						<li><a href="#"> Phụ kiện nữ</a></li>
+					</ul>
+				</div>
+				
+				<div id="content-left-bot">
+				</div>
+			</div>
+			
+			<div id="content-right">
+				<table>
+					<tr>
+						<td>
+							<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left; padding:10px 10px 10px 10px;" lt="anh noi dung"/>							
+						</td>
+						<td>
+							<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left;  padding:10px 10px 10px 10px;" alt="anh noi dung"/>
+						</td>
+						<td>
+						<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left; padding:10px 10px 10px 10px;" alt="anh noi dung"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left; padding:10px 10px 10px 10px;" lt="anh noi dung"/>							
+						</td>
+						<td>
+							<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left;  padding:10px 10px 10px 10px;" alt="anh noi dung"/>
+						</td>
+						<td>
+						<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left; padding:10px 10px 10px 10px;" alt="anh noi dung"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left; padding:10px 10px 10px 10px;" lt="anh noi dung"/>							
+						</td>
+						<td>
+							<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left;  padding:10px 10px 10px 10px;" alt="anh noi dung"/>
+						</td>
+						<td>
+						<img src="C:\Users\LamDV\Desktop\HTML - CSS\WEBSITE - BAN HANG\images\products\15894897_1218388771575538_294881664657986828_n.jpg" width="200px" height="300px" style="float:left; padding:10px 10px 10px 10px;" alt="anh noi dung"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+						<td>
+							Em bán sữa !! 
+							giá 50.000 Đ/l
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+		
+		<div id="footer">
+			<div id="footer-left">
+				<table>
+					<tr>
+						<td>
+							Chủ tài khoản : 
+						</td>
+						<td>
+							Họ tên của bạn
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Vietcombank
+						</td>
+						<td>
+							0071000649434
+						</td>
+					</tr>
+					<tr>
+						<td>
+							ACB Bank
+						</td>
+						<td>
+							73090598
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Dong A bank 
+						</td>
+						<td>
+							1132554174
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div id="footer-middle">
+				<table>
+					<tr>
+						<td width="100px">
+							Free ship:  
+						</td>
+						<td>
+							1 số địa điểm ở HCM (Công viên Lưu Hữu Phước,Đại học Cn , siêu thị Coopmart)
+						</td>
+					</tr>
+					<tr>
+						<td>
+						</td>
+						<td>
+						Ship toàn quốc
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div id="footer-right">
+				<table>
+					<tr>
+						<td width="100px">
+							Địa chỉ : 
+						</td>
+						<td>
+							95a Điện Biên Phủ , Q.thủ đức,
+								TP.Hồ Chí Minh
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							Phone:
+						</td>
+						<td>
+							0954565472
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							Di động :
+						</td>
+						<td>
+							0954565472
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							Email:
+						</td>
+						<td>
+							lamdaoict@gmail.com
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+		<div>
+					<center> © Copyright: contact - lamdao.ict@gmail.com </center>
+		</div>
+	</div>
+</body>
+</html>

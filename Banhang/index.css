@@ -1,0 +1,223 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper{
+	width:900px;
+	background-color:white;
+	margin:auto;
+	padding:0px 10px 0px 10px;
+}
+	#banner{
+		height:215px;
+		background-color:white;
+	}
+		#logo{
+			height:25px;
+			background-color:white;
+		}
+			#logo-left{
+				width:730px;
+				float:left;
+			}
+			#logo-right{
+				float:left;
+			}
+		#shopcart{
+			height:145px;
+		}	
+			#shopcart-left{
+				float:left;
+				line-height:145px;
+				width:600px;
+			}
+			#shopcart-right{
+				float:left;
+				line-height:20px;
+				padding-top:36px;
+				position:relative;
+			}
+			#shop{
+				position:absolute;
+				top:50px;
+				left:75px;
+			}
+			#plus{
+				background-image:url("../WEBSITE - BAN HANG/images/icon_-.png");
+				width:26px;
+			}
+			#plus:hover{
+				cursor:pointer;
+			}
+			#pre{
+				background-image:url("../WEBSITE - BAN HANG/images/icon_+.png");
+				width:22px;
+			}
+		#contact{
+			height:41px;
+			background-color:white;
+			float:right;
+		}
+		#contact img{
+			margin-top:3px;
+		}
+	#menu-bar{
+		height:500px;
+		background-color:white;
+	}
+		#menu{
+			height:40px;
+			background-color:green;
+		}
+		#menu ul{
+			list-style-type:none;
+		}
+		#menu ul li{
+			width:150px;
+			height:40px;
+			line-height:40px;
+			float:left;
+			text-align:center;
+			position:relative; /* cố định thẻ li*/
+			border-right:1px solid #000000;
+		}
+		#menu ul li a{
+			text-decoration:none;
+		}
+		#menu ul li:hover .submenu{
+			color:black;
+			display:block;
+		}
+		
+			#menu ul li > .submenu{
+				display:none;
+				position:absolute; /*hiển thị menu ngang lên thẻ li đã cố định*/
+		
+			}
+			.submenu li{
+				border:1px solid #000000;
+			}
+		#img{
+			height:400px;
+			margin: 10px 0px 10px 0px;
+		}
+		#img-left{
+			height:400px;
+			width:590px;
+			margin-right:10px;
+			float:left;
+			background-color:red;
+		}
+		#img-right{
+			height:400px;
+			width:300px;
+			float:left;
+		}
+			#img-right-top{
+				height:300px;
+				width:300px;
+				background-color:blue;
+			}
+			#img-right-bot{
+				height:90px;
+				width:300px;
+				margin-top:10px;
+				background-color:blue;
+			}
+		#wellcome{
+			height:40px;
+			background-color:green;
+		}
+	#content{
+		margin-top:10px;
+		background-color:white;
+	}
+		#content-left{
+			width:223px;
+			height:500px;
+			border:1px solid #000000;
+			float:left;
+		}
+			#menu-doc{
+				width: 	201px;
+				height: 250px;
+				border:1px solid #cccccc;
+				margin:auto;
+				margin-top:10px;
+				border-radius:6px;
+			}
+				#menu-doc ul{
+						list-style-type:none;
+				}
+				#menu-doc > ul{
+					padding:10px 20px 20px 20px;
+				}
+				#menu-doc li{
+					line-height:26px;
+				}
+				#menu-doc  ul  li{
+					position:relative;
+				}
+				#menu-doc ul li a{
+					text-decoration:none;
+				}
+				#menu-doc  ul  li:hover  .submenu-1{
+					color:blue;
+					display:block;
+				}
+				#menu-doc > ul > li{
+					border-bottom:1px solid #000000;
+				}
+				
+	
+				.submenu-1 li{
+					padding-left:20px;
+					background:url(arrow.png) no-repeat 10px 10px;
+					width:150px;
+				}
+				.submenu-1{
+					display:none;
+					position:absolute;
+					top:0px;
+					right:-125px;
+					border:1px solid #000000;
+				}
+			#content-left-bot{
+				margin-top:40px;
+				width:223px;
+				border:1px solid #000000;
+				height:100px;
+			}
+			
+			
+		#content-right{
+			width:673px;
+			border:1px solid #000000;
+			float:left;
+		}
+		
+		#footer{
+			clear:both;
+			height:150px;
+			background-color:green;
+		}
+		#footer-left{
+			width:270px;
+			padding:10px 10px 10px 10px;
+			float:left;
+			border:1px solid #000000;
+		}
+		#footer-middle{
+			width:280px;
+			padding:10px 10px 10px 10px;
+			float:left;
+			border:1px solid #000000;
+		}
+		#footer-right{
+			width:280px;
+			padding:10px 10px 5px 10px;
+			float:left;
+			border:1px solid #000000;
+		}
+		
